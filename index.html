@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Preparation Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Exam Preparation Hub</h1>
+    <p id="quote" class="quote-text">Loading quote...</p>
+    <button id="newQuoteBtn" class="quote-btn">🔄 New Quote</button>
+    <div class="header-actions">
+        <input type="text" id="searchBar" placeholder="Search resources...">
+        <button id="darkModeBtn">🌙 Dark Mode</button>
+    </div>
+    <p class="countdown">⏳ Next Exam Starts In: <span id="examTimer"></span></p>
+</header>
+
+
+    <main>
+        <section class="resources">
+            <h2>Previous Year Papers</h2>
+             <h3 class="sub-heading">📄 Mid-Term Papers</h3>
+            <div class="card" data-name="Mid-Term DSC Question Paper 2024">
+                <h3>Mid-Term DSC Question Paper 2024</h3>
+                <a href="assets/pdfs/midterm/DSC_2024.pdf" target="_blank" class="btn">Download</a>
+             <button class="fav-btn">⭐ Add to Favorites</button>
+            </div>
+            <div class="card" data-name="Mid-Term AWT Question Paper 2024">
+                <h3>Mid-Term AWT Question Paper 2024</h3>
+                <a href="assets/pdfs/midterm/AWT_2024.pdf" target="_blank" class="btn">Download</a>
+             <button class="fav-btn">⭐ Add to Favorites</button>
+            </div>
+            <div class="card" data-name="Mid-Term LA Question Paper 2024">
+                <h3>Mid-Term LA Question Paper 2024</h3>
+                <a href="assets/pdfs/midterm/LA_2024.pdf" target="_blank" class="btn">Download</a>
+             <button class="fav-btn">⭐ Add to Favorites</button>
+            </div>
+            <h3 class="sub-heading">📄 End-Term Papers</h3>
+            <div class="card" data-name="End-Term DSC Question Paper 2024">
+                <h3>End-Term DSC Question Paper 2024</h3>
+                <a href="assets/pdfs/endterm/DSC_2024.pdf" target="_blank" class="btn">Download</a>
+             <button class="fav-btn">⭐ Add to Favorites</button>
+            </div>
+            <div class="card" data-name="End-Term AWT Question Paper 2024">
+                <h3>End-Term AWT Question Paper 2024</h3>
+                <a href="assets/pdfs/endterm/AWT_2024.pdf" target="_blank" class="btn">Download</a>
+             <button class="fav-btn">⭐ Add to Favorites</button>
+            </div>
+            <div class="card" data-name="End-Term LA Question Paper 2024">
+                <h3>End-Term LA Question Paper 2024</h3>
+                <a href="assets/pdfs/endterm/LA_2024.pdf" target="_blank" class="btn">Download</a>
+             <button class="fav-btn">⭐ Add to Favorites</button>
+            </div>
+        </section>
+
+        <section class="resources">
+    <h2>Important Notes</h2>
+
+    <div class="subject-accordion">
+        <button class="accordion-btn">DSC Notes 📄</button>
+        <div class="accordion-content">
+            <div class="card" data-name="Book" data-link="assets/pdfs/DSC/book.pdf">
+                <span>Book</span>
+                <div>
+                    <a href="assets/pdfs/DSC/book.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 1:Introduction To Data Structures." data-link="assets/pdfs/DSC/unit1.pdf">
+                <span>Unit 1:Introduction To Data Structures.</span>
+                <div>
+                    <a href="assets/pdfs/DSC/unit1.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 2:Linked Lists" data-link="assets/pdfs/DSC/unit2.pdf">
+                <span>Unit 2:Linked Lists</span>
+                <div>
+                    <a href="assets/pdfs/DSC/unit2.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 3:Stack And Queue." data-link="assets/pdfs/DSC/unit3.pdf"> 
+                <span>Unit 3:Stack And Queue.</span>
+                <div>
+                    <a href="assets/pdfs/DSC/unit3.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 4:Trees." data-link="assets/pdfs/DSC/unit4.pdf">
+                <span>Unit 4:Trees.</span>
+                <div>
+                    <a href="assets/pdfs/DSC/unit4.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Unit 5:Graphs,Searching,Sorting." data-link="assets/pdfs/DSC/unit5.pdf">
+                <span>Unit 5:Graphs,Searching,Sorting.</span>
+                <div>
+                    <a href="assets/pdfs/DSC/unit5.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Unit 6:Hashing." data-link="assets/pdfs/DSC/unit6.pdf">
+                <span>Unit 6:Hashing.</span>
+                <div>
+                    <a href="assets/pdfs/DSC/unit6.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subject-accordion">
+        <button class="accordion-btn">AWT Notes 📄</button>
+        <div class="accordion-content">
+            <div class="card" data-name="Unit 1:Introduction To PHP." data-link="assets/pdfs/unit1.pdf">
+                <span>Unit 1:Introduction To PHP.</span>
+                <div>
+                    <a href="assets/pdfs/AWT/unit1.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 2:Function And String." data-link="assets/pdfs/AWT/unit2.pdf">
+                <span>Unit 2:Function And String.</span>
+                <div>
+                    <a href="assets/pdfs/AWT/unit2.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 3:Working With Arrays." data-link="assets/pdfs/AWT/unit3.pdf">
+                <span>Unit 3:Working With Arrays.</span>
+                <div>
+                    <a href="assets/pdfs/AWT/unit3.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 4:Introduction To OOP." data-link="assets/pdfs/AWT/unit4.pdf">
+                <span>Unit 4:Introduction To OOP.</span>
+                <div>
+                    <a href="assets/pdfs/AWT/unit4.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 5:Working With File And Directories." data-link="assets/pdfs/AWT/unit5.pdf">
+                <span>Unit 5:Working With File And Directories.</span>
+                <div>
+                    <a href="assets/pdfs/AWT/unit5.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subject-accordion">
+        <button class="accordion-btn">LA Notes 📄</button>
+        <div class="accordion-content">
+            <div class="card" data-name="Unit 1:Matrix Algebra." data-link="assets/pdfs/LA/unit1.pdf">
+                <span>Unit 1:Matrix Algebra.</span>
+                <div>
+                    <a href="assets/pdfs/LA/unit1.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 2:System Of Linear Equations." data-link="assets/pdfs/LA/unit2.pdf">
+                <span>Unit 2:System Of Linear Equations.</span>
+                <div>
+                    <a href="assets/pdfs/LA/unit2.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 3:Vector Spaces." data-link="assets/pdfs/LA/unit3.pdf">
+                <span>Unit 3:Vector Spaces.</span>
+                <div>
+                    <a href="assets/pdfs/LA/unit3.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 4:Eigenvalues And Eigenvectors." data-link="assets/pdfs/LA/unit4.pdf">
+                <span>Unit 4:Eigenvalues And Eigenvectors.</span>
+                <div>
+                    <a href="assets/pdfs/LA/unit4.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Unit 5:Orthogonality." data-link="assets/pdfs/LA/unit5.pdf">
+                <span>Unit 5:Orthogonality.</span>
+                <div>
+                    <a href="assets/pdfs/LA/unit5.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="download-all" onclick="window.location.href='assets/ExamNotes.zip'">⬇ Download All Notes</button>
+
+<section class="resources">
+    <h2>Practicals</h2>
+    <div class="subject-accordion">
+        <button class="accordion-btn">DSC Practicals 📄</button>
+        <div class="accordion-content">
+            <div class="card" data-name="Practical1" data-link="assets/practicals/DSC/p1.pdf">
+                <span>Practical1</span>
+                <div>
+                    <a href="assets/practicals/DSC/p1.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Practical2" data-link="assets/practicals/DSC/p2.pdf">
+                <span>Practical2</span>
+                <div>
+                    <a href="assets/practicals/DSC/p2.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Practical3" data-link="assets/practicals/DSC/p3.pdf">
+                <span>Practical3</span>
+                <div>
+                    <a href="assets/practicals/DSC/p3.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Practical4" data-link="assets/practicals/DSC/p4.pdf">
+                <span>Practical4</span>
+                <div>
+                    <a href="assets/practicals/DSC/p4.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subject-accordion">
+        <button class="accordion-btn">AWT Practicals 📄</button>
+        <div class="accordion-content">
+         <div class="card" data-name="Practical1" data-link="assets/practicals/AWT/p1.pdf">
+                <span>Practical1</span>
+                <div>
+                    <a href="assets/practicals/AWT/p1.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Practical2" data-link="assets/practicals/AWT/p2.pdf">
+                <span>Practical2</span>
+                <div>
+                    <a href="assets/practicals/AWT/p2.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Practical3" data-link="assets/practicals/AWT/p3.pdf">
+                <span>Practical3</span>
+                <div>
+                    <a href="assets/practicals/AWT/p3.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+             <div class="card" data-name="Practical4" data-link="assets/practicals/AWT/p4.pdf">
+                <span>Practical4</span>
+                <div>
+                    <a href="assets/practicals/AWT/p4.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+            <div class="card" data-name="Practical5" data-link="assets/practicals/AWT/p5.pdf">
+                <span>Practical5</span>
+                <div>
+                    <a href="assets/practicals/AWT/p5.pdf" class="btn" target="_blank">Download</a>
+                    <button class="fav-btn">⭐ Add to Favorites</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+
+        <section class="resources">
+             <h2>YouTube Tutorials</h2>
+             <div class="card" data-name="DSC Tutorial">
+                 <h3>DSC Playlist</h3>
+                 <iframe width="726" height="408" src="https://www.youtube.com/embed/5_5oE5lgrhw?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi" title="Introduction to Data Structures &amp; Algorithms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+             </div>
+             <div class="card" data-name="AWT Tutorial">
+                 <h3>AWT Playlist</h3>
+                 <iframe width="726" height="408" src="https://www.youtube.com/embed/D4DXbRsQAOA?list=PL8p2I9GklV44cSOlKzB_0TrzxEgwfvicK" title="Php Tutorial in Hindi #1 Introduction | Why should you learn PHP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+             </div>
+             <div class="card" data-name="LA Tutorial">
+                 <h3>LA Playlist</h3>
+                 <iframe width="726" height="408" src="https://www.youtube.com/embed/HItonQ_FekE?list=PLxCzCOWd7aiHnkPiCulMX5SIHMl2ZMmzL" title="Lec-1: Algebra Of Matrices | Linear Algebra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+             </div>
+        </section>
+ 
+     <section class="resources" id="favorites">
+    <h2>⭐ Your Favorites</h2>
+    <div class="fav-container">
+         <div id="favList"></div>
+    </div>
+     </section>
+        
+    </main>
+
+     <script src="script.js"></script>
+     <footer align="center">@ Copyright 2025<br>All Rights Reserved.Powered By Abhishek Shinde.</footer>
+</body>
+</html>
